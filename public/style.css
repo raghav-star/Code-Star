@@ -1,0 +1,206 @@
+.logo{
+    height: 100px;
+}
+.header{
+    
+}
+
+.header a{
+   
+    font-size: 1.3rem;
+   
+}
+
+
+
+.heading2{
+   
+    font-weight: 450;
+  color: rgb(97, 93, 93);
+  font-size: 20px;
+}
+
+.allHeading{
+    
+    padding-left: 10%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.topBottomMargin{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+
+/* Rotating img  */
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .imageSize{
+      height:80%;
+      width: 50%;
+      margin-left: 25%;
+     /* text-align: center; */
+  }
+
+  .pageTwoHeading{
+      text-align: center;
+  
+  }
+
+
+  /* Under line feature */
+
+  .middle {
+    text-decoration: none;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  .middle:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(196, 58, 58);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .middle:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+/* hover effect for cards */
+  .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.largeImage{
+  width: 100%;
+  height: 100%;
+}
+
+/*  */
+.boxShadow {
+  /* width: 250px; */
+  box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 6px;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* margin-top: 2.5%; */
+  margin-bottom: 5%;
+  color: rgb(97, 93, 93);
+  /* border-radius: 1%; */
+  
+}
+.boxShadow:hover{
+  cursor: pointer;
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);}
+
+/* Scrolling image */
+
+/* #carouselExampleSlidesOnly .carousel-item {
+  transition: transform 2s ease-in-out;
+} */
+
+.section {
+  padding: 60px 0;
+}
+
+.section .section-title {
+  text-align: center;
+  color: #28313e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#footer {
+  background: #28313e !important;
+}
+#footer h5{
+padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color:#ffffff;
+}
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+padding: 3px 0;
+}
+#footer ul.social li a i {
+  margin-right: 5px;
+font-size:25px;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+font-size:30px;
+margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+color:#ffffff;
+}
+#footer ul.social li a:hover{
+color:#eeeeee;
+}
+#footer ul.quick-links li{
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
+}
+#footer ul.quick-links li a i{
+margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width:767px){
+#footer h5 {
+  padding-left: 0;
+  border-left: transparent;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+}
