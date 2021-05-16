@@ -6,7 +6,7 @@ import Cards from "./Cards.jsx";
 function PageTwo(){
    
     return(
-     <div className="pageTwoHeading container">
+     <div id="courses" className="pageTwoHeading container">
      <div className="container pt-5">   
          <Heading text="What are you looking for?" size="40px" weight="500" moreClasses="middle"/>
     </div>

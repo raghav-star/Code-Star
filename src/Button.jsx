@@ -1,7 +1,10 @@
 import React from "react"
+import {Link} from "react-router-dom";
 
 function Button(props){
-    return <div className="btn btn-danger btn-lg ">{props.buttonText}</div>
+    return(<Link to="/FreeResources"><div className="btn btn-danger btn-lg " >{props.buttonText}</div> </Link>);
+    
+
 }
 
 export default Button;
