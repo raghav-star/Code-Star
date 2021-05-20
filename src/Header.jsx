@@ -1,9 +1,9 @@
  import React from "react";
  import $ from 'jquery';
+ import {Link} from "react-router-dom";
+ 
 
 function Header(){
-     
-    
 
     return(<div className="header">
     <nav id="myNavbar" className="navbar navbar-expand-lg  navbar navbar-light header wrapHead" >
@@ -17,7 +17,7 @@ function Header(){
         <a className="nav-link scroll" href="#courses">Courses <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item mr-5">
-        <a className="nav-link scroll" href="#placementProgram">Placment Program</a>
+        <a className="nav-link scroll" href="#placementProgram">Placement Program</a>
       </li>
       <li className="nav-item mr-5">
         <a className="nav-link scroll" href="#review">Reviews</a>
@@ -26,7 +26,7 @@ function Header(){
         <a className="nav-link scroll" href="#footer">Contact Us</a>
       </li>
       <li className="nav-item mr-5">
-        <a className="nav-link scroll" href="#">Login</a>
+       <Link to="/login"> <a className="nav-link scroll" href="#">Login/Register</a> </Link>
       </li>
       
     </ul>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-payment-back">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="payment-back" clip-path="url(#clip-payment-back)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <path id="Path_7" data-name="Path 7" d="M238.824-111.628l684.009.351V968.473H-645.551Z" transform="translate(997.167 111.527)" fill="#60fff4"/>
+  </g>
+</svg>
