@@ -1,11 +1,17 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Heading from './Heading.jsx';
 import ListItem from "./ListItem.jsx";
 import Carousel from "./Carousel.jsx";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function PageFour(){
+    useEffect(() =>{
+        Aos.init({duration:2000});
+      },[]);
+
     return(
-       <div id="" className="container-fluid" style={{marginTop:'50px'}} > 
+       <div data-aos="" id="" className="container-fluid" style={{marginTop:'50px'}} > 
         <div className="pageTwoHeading pt-5">   
            <Heading text="Where our students work" size="40px" weight="500" moreClasses="middle"/>
          

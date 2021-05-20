@@ -1,10 +1,17 @@
-import React from "react";
+import React,{useEffect} from "react";
 import BoxShadow from "./BoxShadow.jsx";
 import Review from "./Review.jsx";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function PageSix(){
+  useEffect(() =>{
+    Aos.init({duration:2000});
+  },[]);
+
+
     return(
-    <div>
+    <div data-aos="fade-left">
     <div className="container">
         <div className="row">
         <div className="col-md-4 mb-5">

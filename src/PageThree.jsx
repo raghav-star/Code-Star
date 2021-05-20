@@ -1,11 +1,16 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Heading from "./Heading.jsx";
 import BoxShadow from "./BoxShadow.jsx";
 import Button from "./Button.jsx";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function PageThree(){
-      
-    return <div id="placementProgram" className="container" style={{marginTop:'50px'}}>
+    useEffect(() =>{
+        Aos.init({duration:2000});
+      },[]);
+
+    return <div data-aos="fade-left" id="placementProgram" className="container" style={{marginTop:'50px'}}>
          <div className="pageTwoHeading container pt-5">   
            <Heading text="Placement Program" size="40px" weight="500" moreClasses="middle"/>
         </div>
