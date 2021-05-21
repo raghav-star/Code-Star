@@ -7,7 +7,7 @@ function Card(props){
     <div className="card-body">
       <h5 className="card-title">{props.title}</h5>
       <p className="card-text">{props.desc}</p>
-      <Link to={{pathname: "/payment", state: {id: props.title}}}><div class="btn btn-primary">BUY NOW</div></Link>
+      <Link to={{pathname: "/course_detail", state: {id: props.id}}}><div class="btn btn-primary">EXPLORE</div></Link>
     </div>
     </div>);
 }

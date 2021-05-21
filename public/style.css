@@ -2,26 +2,26 @@
     height: 100px;
 }
 .header{
-    
+
 }
 
 .header a{
-   
+
     font-size: 1.3rem;
-   
+
 }
 
 
 
 .heading2{
-   
+
     font-weight: 450;
   color: rgb(97, 93, 93);
   font-size: 20px;
 }
 
 .allHeading{
-    
+
     padding-left: 10%;
     padding-right: 5%;
     text-align: left;
@@ -30,7 +30,7 @@
 .topBottomMargin{
     padding-top: 3%;
     padding-bottom: 3%;
-    
+
 }
 
 
@@ -57,7 +57,7 @@
 
   .pageTwoHeading{
       text-align: center;
-  
+
   }
 
 
@@ -65,12 +65,12 @@
 
   .middle {
     text-decoration: none;
-    
+
     display: inline-block;
     padding: 15px 20px;
     position: relative;
   }
-  .middle:after {    
+  .middle:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -82,9 +82,9 @@
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  .middle:hover:after { 
-    width: 100%; 
-    left: 0; 
+  .middle:hover:after {
+    width: 100%;
+    left: 0;
   }
 /* hover effect for cards */
   .card{
@@ -118,7 +118,7 @@
   margin-bottom: 5%;
   color: rgb(97, 93, 93);
   /* border-radius: 1%; */
-  
+
 }
 .boxShadow:hover{
   cursor: pointer;
@@ -355,4 +355,11 @@ margin-right: 5px;
 
 .payment-background{
   background-color: cyan;
+}
+
+.newWeight{
+  color:white;
+  font-weight:bold;
+  text-transform: capitalize;
+  font-size:2rem;
 }
