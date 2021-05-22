@@ -363,3 +363,8 @@ margin-right: 5px;
   text-transform: capitalize;
   font-size:2rem;
 }
+.gradient{
+  background: linear-gradient(
+90deg
+, #fb8133, #ffba08);
+}
